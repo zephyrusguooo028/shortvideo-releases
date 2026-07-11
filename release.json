@@ -1,20 +1,45 @@
 {
-  "version": "1.0.11",
+  "version": "1.0.12",
   "min_version": "1.0.6",
   "release_date": "2026-07-11",
-  "changelog": "- 成片内置真实 BGM（AAC 音轨）\n- 优化切镜节奏、响度与片尾淡出\n- 更新下载新增 SHA-256 完整性校验\n- 改进片头与片尾视觉效果",
+  "changelog": "- 卡密验证服务迁移至新的 HTTPS 域名\n- 更新下载支持 20 个代理候选，自动探测与切换\n- 全部代理不可用时回退 GitHub 官方下载\n- 下载继续强制 SHA-256 完整性校验\n- 保留内置 BGM、切镜节奏与视觉改进",
   "packages": {
     "update": {
       "filename": "ShortVideoUpdate.zip",
-      "url": "https://github.com/zephyrusguooo028/shortvideo-releases/releases/download/v1.0.11/ShortVideoUpdate.zip",
-      "sha256": "679a6cc22088347394cc1f083ebe8dab5f6f2a04a2ae8c5df9bb810a09f1fd25",
+      "url": "https://gh.dpik.top/https://github.com/zephyrusguooo028/shortvideo-releases/releases/download/v1.0.12/ShortVideoUpdate.zip",
+      "origin_url": "https://github.com/zephyrusguooo028/shortvideo-releases/releases/download/v1.0.12/ShortVideoUpdate.zip",
+      "sha256": "5298a28e5633a568d45093c3040541cb4f6d7b0d17f9191520cf9e516e342324",
       "file_size_mb": 131.1
     },
     "installer": {
       "filename": "ShortVideoSetup.exe",
-      "url": "https://github.com/zephyrusguooo028/shortvideo-releases/releases/download/v1.0.11/ShortVideoSetup.exe",
-      "sha256": "4d0581b4504103aeeb57dbc3488a792a283aac99d24474bd1635e4994d7105c2",
+      "url": "https://gh.dpik.top/https://github.com/zephyrusguooo028/shortvideo-releases/releases/download/v1.0.12/ShortVideoSetup.exe",
+      "origin_url": "https://github.com/zephyrusguooo028/shortvideo-releases/releases/download/v1.0.12/ShortVideoSetup.exe",
+      "sha256": "854c540a78ed827059572476485c77f6c6d44bb604be1d77ca96a666b880e190",
       "file_size_mb": 339.6
     }
-  }
+  },
+  "mirror_prefixes": [
+    "https://gh.dpik.top/",
+    "https://ghfile.geekertao.top/",
+    "https://gh-proxy.com/",
+    "https://cdn.akaere.online/",
+    "https://gh.927223.xyz/",
+    "https://gh.idayer.com/",
+    "https://github-proxy.memory-echoes.cn/",
+    "https://tvv.tw/",
+    "https://gh.jasonzeng.dev/",
+    "https://ghf.xn--eqrr82bzpe.top/",
+    "https://github.ednovas.xyz/",
+    "https://ghm.078465.xyz/",
+    "https://fastgit.cc/",
+    "https://ghproxy.cxkpro.top/",
+    "https://ghproxy.imciel.com/",
+    "https://gh.monlor.com/",
+    "https://gh.bugdey.us.kg/",
+    "https://gitproxy.mrhjx.cn/",
+    "https://gp.zkitefly.eu.org/",
+    "https://github.chenc.dev/"
+  ],
+  "allow_origin_fallback": true
 }
