@@ -1,22 +1,22 @@
 {
-  "version": "1.0.13",
+  "version": "1.0.14",
   "min_version": "1.0.6",
   "release_date": "2026-07-13",
-  "changelog": "- 修复切换到 Image-2 模型时页面错误\n- 同步 580AI 两个限时特价模型\n- 保持新卡密 HTTPS 域名、多代理更新、SHA-256 校验和内置 BGM",
+  "changelog": "- 修复 Windows 更新阶段 WinError 87\n- 修复批处理更新脚本启动方式\n- 保持 580AI 模型切换修复、新卡密 HTTPS 域名、多代理下载、SHA-256 校验和内置 BGM",
   "packages": {
     "update": {
       "filename": "ShortVideoUpdate.zip",
-      "url": "https://gh.dpik.top/https://github.com/zephyrusguooo028/shortvideo-releases/releases/download/v1.0.13/ShortVideoUpdate.zip",
-      "origin_url": "https://github.com/zephyrusguooo028/shortvideo-releases/releases/download/v1.0.13/ShortVideoUpdate.zip",
-      "sha256": "bb8901efe6c478d3c6ac6ec78050cc6b59e2dc135509be1d9e1a83d86ab6247a",
-      "file_size_mb": 131.1
+      "url": "https://gh.dpik.top/https://github.com/zephyrusguooo028/shortvideo-releases/releases/download/v1.0.14/ShortVideoUpdate.zip",
+      "origin_url": "https://github.com/zephyrusguooo028/shortvideo-releases/releases/download/v1.0.14/ShortVideoUpdate.zip",
+      "sha256": "46d6620335ed76abd15f781ccc0eff7af921039ebc9a2117341aebe112cb3452",
+      "file_size_mb": 240.0
     },
     "installer": {
       "filename": "ShortVideoSetup.exe",
-      "url": "https://gh.dpik.top/https://github.com/zephyrusguooo028/shortvideo-releases/releases/download/v1.0.13/ShortVideoSetup.exe",
-      "origin_url": "https://github.com/zephyrusguooo028/shortvideo-releases/releases/download/v1.0.13/ShortVideoSetup.exe",
-      "sha256": "357cba3ee212d0b2e25934972fd912ccc5eeb3308f3fb2c58d676b7598fafd45",
-      "file_size_mb": 339.6
+      "url": "https://gh.dpik.top/https://github.com/zephyrusguooo028/shortvideo-releases/releases/download/v1.0.14/ShortVideoSetup.exe",
+      "origin_url": "https://github.com/zephyrusguooo028/shortvideo-releases/releases/download/v1.0.14/ShortVideoSetup.exe",
+      "sha256": "c2446957ca89d74230a552762e205c98d8405c04a1a331100e5eab5e779fd5d2",
+      "file_size_mb": 448.2
     }
   },
   "mirror_prefixes": [
