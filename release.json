@@ -1,21 +1,21 @@
 {
-  "version": "1.0.15",
+  "version": "1.0.16",
   "min_version": "1.0.6",
   "release_date": "2026-07-13",
-  "changelog": "- 彻底修复切换 Image-2 时元素脱离导致的错误\n- 模型切换使用原生事件、重新定位和稳定等待\n- 同步 580AI 当前 9 个模型选项\n- 保持 WinError 87 修复、新卡密 HTTPS 域名、多代理下载、SHA-256 校验和内置 BGM",
+  "changelog": "- 修复批量生成路径中 Image-2 切换后的旧 select 元素错误\n- 按模型类型配置批量模式尺寸、质量和数量\n- 修复 Image-2 分辨率值格式差异\n- 保持更新启动、模型切换、卡密、多代理、SHA-256 和 BGM 修复",
   "packages": {
     "update": {
       "filename": "ShortVideoUpdate.zip",
-      "url": "https://gh.dpik.top/https://github.com/zephyrusguooo028/shortvideo-releases/releases/download/v1.0.15/ShortVideoUpdate.zip",
-      "origin_url": "https://github.com/zephyrusguooo028/shortvideo-releases/releases/download/v1.0.15/ShortVideoUpdate.zip",
-      "sha256": "5dc7da30ce894893c017052d735bad4355ee703041231af24f2a90c8572eb38a",
+      "url": "https://gh.dpik.top/https://github.com/zephyrusguooo028/shortvideo-releases/releases/download/v1.0.16/ShortVideoUpdate.zip",
+      "origin_url": "https://github.com/zephyrusguooo028/shortvideo-releases/releases/download/v1.0.16/ShortVideoUpdate.zip",
+      "sha256": "7eff7b42ce1b0c0c361c29dab6954e8f8c796c8a87d0feb6627e87aa2eb94afd",
       "file_size_mb": 131.1
     },
     "installer": {
       "filename": "ShortVideoSetup.exe",
-      "url": "https://gh.dpik.top/https://github.com/zephyrusguooo028/shortvideo-releases/releases/download/v1.0.15/ShortVideoSetup.exe",
-      "origin_url": "https://github.com/zephyrusguooo028/shortvideo-releases/releases/download/v1.0.15/ShortVideoSetup.exe",
-      "sha256": "ebf235601a4797afd4921f1848173488be53ee49d76c3a97db1cc315e162abed",
+      "url": "https://gh.dpik.top/https://github.com/zephyrusguooo028/shortvideo-releases/releases/download/v1.0.16/ShortVideoSetup.exe",
+      "origin_url": "https://github.com/zephyrusguooo028/shortvideo-releases/releases/download/v1.0.16/ShortVideoSetup.exe",
+      "sha256": "3ec4f31fcd503816991981d4c1773f791ebeff038b1a487147ec726a29204929",
       "file_size_mb": 339.6
     }
   },
